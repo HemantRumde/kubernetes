@@ -4,7 +4,7 @@
 * Create AWS bucket ```s3://kops.hemantrumde.com``` 
 
 ## AWS VPC 
-* Create new VPC 
+* Create new **VPC** 
 * Get id of this new VPC for kops --vpc option
 
 ## build k8s cluster with three nodes and one master 
