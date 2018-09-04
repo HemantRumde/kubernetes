@@ -1,7 +1,7 @@
 # Create new Kubernetes cluster 
 ## S3 bucket to maintain k8s configuration files
 * <code>hemantrumde.com</code> is a hosting zone in AWS Route53
-* Create AWS bucket ```s3://kops.hemantrumde.com``` 
+* Create AWS S3 bucket ```s3://kops.hemantrumde.com``` 
 
 ## AWS VPC 
 * Create new **VPC** 
