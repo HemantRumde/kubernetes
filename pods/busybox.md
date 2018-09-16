@@ -26,4 +26,20 @@ PyCharm is a Python IDE. However it provides plugins for K8S yaml definitions. T
 ```
 https://plugins.jetbrains.com/plugin/9354-kubernetes-and-openshift-resource-support
 ```
-
+# Creating a pod
+* Create a new pod
+```kubectl create -f busybox.yml```
+* List pods with short description ( name in metadata defines a name of pod )
+```
+kubectl get pods
+kubectl get pod/busybox-pod
+```
+* Details description. Check all the events at the bottom of full description 
+```
+kubectl describe pod/busy-pod 
+```
+* Select pod by its label 
+```
+kubectl get pod -l application=foo-pod-demo-02
+```
+```
