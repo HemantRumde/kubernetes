@@ -20,7 +20,7 @@ password      | ******
 
 ```
 Above command would create a secret <code>docker-registry</code>. A service account would specify this secret.
-We have not create a ServiceAccount for this. Let us create a new ServiceAccount
+We have not created a ServiceAccount for this. Let us create a new ServiceAccount
 
 ---
 ## Step 02: Create a ServiceAccount <code>hemant</code>
