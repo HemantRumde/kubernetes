@@ -40,7 +40,7 @@ kubectl describe pod/busy-pod
 ```
 * Select pod by its label 
 ```
-kubectl get pod -l application=foo-pod-demo-02
+kubectl get pod -l application=busybox-pod-demo-01
 ```
 * A command used to create a pod can be recorded into annotations by <code>--record</code> option 
 ```
