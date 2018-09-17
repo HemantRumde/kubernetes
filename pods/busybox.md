@@ -56,3 +56,10 @@ A command with arguments on separate lines
     command: [ "sleep" ]
     args: [ "3000" ] 
 ```
+A command as a list 
+```
+    command:
+       - "iostat"
+       - "-c"
+       - "3"
+```
