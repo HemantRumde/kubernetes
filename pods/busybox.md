@@ -46,3 +46,13 @@ kubectl get pod -l application=busybox-pod-demo-01
 ```
 kubectl create -f busybox.yml --record
 ```
+* Execution of command in Pod
+A command along with arguments
+```
+    command: [ "sleep", "30000" ]
+```
+A command with arguments on separate lines 
+```
+    command: [ "sleep" ]
+    args: [ "3000" ] 
+```
