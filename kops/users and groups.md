@@ -10,6 +10,7 @@ aws iam attach-group-policy --group-name kops --policy-arn  arn:aws:iam::aws:pol
 aws iam attach-group-policy --group-name kops --policy-arn  arn:aws:iam::aws:policy/AmazonVPCFullAccess
 aws iam attach-group-policy --group-name kops --policy-arn  arn:aws:iam::aws:policy/IAMFullAccess
 ```
+# New kops AWS user 
 Add new user for kops administration and add it to newly created group
 ```
 aws iam create-user --user-name kopsmgr
