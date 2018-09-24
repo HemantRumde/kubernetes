@@ -11,3 +11,8 @@ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ```
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 ```
+
+## Install jq 
+```
+# yum -y install jq
+```
